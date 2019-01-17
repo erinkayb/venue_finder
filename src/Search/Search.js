@@ -10,7 +10,9 @@ export default class Search extends Component {
         }
     }
     changeHandler = ( e ) => {
-        this.setState({ searchBarInput: e.target.value })
+        this.setState({ 
+            searchBarInput: e.target.value 
+        })
     }
 
     render() {
